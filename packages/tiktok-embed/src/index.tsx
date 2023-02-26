@@ -1,5 +1,1 @@
-import * as React from 'react'
-
-export const TiktokEmbed = () => {
-  return <div>tiktokembed</div>
-}
+export {default as useTiktokOembed} from './useTiktokOembed';

@@ -1,4 +1,4 @@
-type TiktokOembedResponse = {
+export type TiktokOembedResponse = {
   version: string;
   type: string;
   title: string;
