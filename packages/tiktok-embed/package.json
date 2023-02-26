@@ -17,5 +17,8 @@
   "peerDependencies": {
     "react": "^18.2.0"
   },
-  "gitHead": "0081714c690d067e9734b39909277cd384ff1917"
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },  
 }
