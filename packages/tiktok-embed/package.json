@@ -8,7 +8,8 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "tsc -p ."
+    "build": "tsc -p .",
+    "release:cannary": "yarn build && yarn version --prerelease --preid=canary && npm publish --tag canary"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
