@@ -1,0 +1,15 @@
+{
+  "name": "social-embed",
+  "version": "0.0.1",
+  "description": "Monorepo of social media embed",
+  "main": "index.js",
+  "author": "imdbsd",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^6.5.1"
+  }
+}
