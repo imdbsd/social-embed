@@ -1,6 +1,8 @@
 import {TiktokOembedResponse} from './tiktok.types';
 
-export const getTiktokOembed = async (url: string): Promise<any> => {
+export const getTiktokOembed = async (
+  url: string
+): Promise<TiktokOembedResponse> => {
   try {
     const resp = await fetch(`https://www.tiktok.com/oembed?url=${url}`);
     if (!resp.ok) {
