@@ -11,10 +11,10 @@ type Response = {
   error: unknown;
 };
 
-const useTiktokOembed = (args: Args): Response => {
-  const [loading, setLoading] = React.useState<boolean>(false);
-  const [data, setData] = React.useState<TiktokOembedResponse | null>(null);
-  const [error, setError] = React.useState(null);
+const useTiktokOembed = (): Response => {
+  const [loading] = React.useState<boolean>(false);
+  const [data] = React.useState<TiktokOembedResponse | null>(null);
+  const [error] = React.useState(null);
 
   return {loading, data, error};
 };
