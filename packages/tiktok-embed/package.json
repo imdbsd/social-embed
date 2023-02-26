@@ -1,10 +1,10 @@
 {
   "name": "@imdbsd/tiktok-embed",
-  "version": "0.0.1-alpha.5+0081714",
+  "version": "0.0.1-canary.0",
   "description": "React hooks, component and utilities for using tiktok oembed",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "author": "imdbsd",  
+  "author": "imdbsd",
   "private": false,
   "scripts": {
     "build": "tsc -p .",
