@@ -1,9 +1,9 @@
 import * as React from 'react';
 import {TiktokOembedResponse} from './tiktok.types';
 
-type Args = {
-  url: string;
-};
+// type Args = {
+//   url: string;
+// };
 
 type Response = {
   loading: boolean;
