@@ -1,0 +1,16 @@
+{
+  "name": "@imdbsd/tiktok-embed",
+  "version": "0.0.1",
+  "description": "React hooks, component and utilities for using tiktok oembed",
+  "main": "index.js",
+  "author": "imdbsd",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "typescript": "4.3.2"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  }
+}
