@@ -8,6 +8,7 @@
   "private": true,
   "scripts": {
     "build:all": "./node_modules/.bin/lerna run build",
+    "build:public-only": "./node_modules/.bin/lerna run build --no-private",
     "bump-version": "./node_modules/.bin/lerna version --no-private",
     "release:canary": "yarn build:all && yarn bump-version && ./node_modules/.bin/lerna publish -c"
   },
