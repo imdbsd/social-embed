@@ -8,7 +8,10 @@
   "private": false,
   "scripts": {
     "build": "tsc -p .",
-    "release:cannary": "yarn build && yarn version --prerelease --preid=canary && npm publish --tag canary"
+    "cleanup-build": "rm -rf ./dist",
+    "prepublishOnly": "yarn cleanup-build && yarn build",
+    "release:cannary": "yarn version --prerelease --preid=canary && npm publish --tag canary",
+    "release:stable": "yarn version --prerelease --preid=canary && npm publish --tag canary"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
