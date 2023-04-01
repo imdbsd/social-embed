@@ -1,6 +1,6 @@
 import * as React from 'react';
-import useTiktokEmbedscript from './hooks/useTiktokEmbedScript';
-import useTiktokOembed from './useTiktokOembed';
+import useTiktokEmbedscript from '../hooks/useTiktokEmbedScript';
+import useTiktokOembed from '../hooks/useTiktokOembed';
 import ErrorPlaceholder from './ErrorPlaceholder';
 
 export type Props = {

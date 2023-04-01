@@ -1,6 +1,6 @@
 import * as React from 'react';
-import {getTiktokOembed} from './getTiktokOembed';
-import {TiktokOembedResponse} from './tiktok.types';
+import {getTiktokOembed} from '../getTiktokOembed';
+import {TiktokOembedResponse} from '../tiktok.types';
 
 type Args = {
   url: string;

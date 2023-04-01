@@ -50,7 +50,7 @@ const useTiktokEmbedscript = (props?: Props) => {
     ? typeof props.when === 'boolean'
       ? props.when
       : props.when()
-    : false;
+    : true;
 
   React.useEffect(() => {
     if (shouldInject) {
