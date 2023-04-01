@@ -1,24 +1,26 @@
 # Tiktok Embed
 
-React component for embed tiktok video. Created based on tiktok [oembed](https://developers.tiktok.com/doc/embed-videos/) specification.
+React component for embed tiktok video.
+Created based on tiktok [oembed](https://developers.tiktok.com/doc/embed-videos/) specification.
 
+## Instalation
 
-## Instalation 
 ```
 $ yarn add @imdbsd/tiktok-embed
-or 
+or
 $ npm install @imdbsd/tiktok-embed
 ```
 
 ## Usage
 
 Using `TiktokEmbed` component
+
 ```
 // App.tsx
 
 import {TiktokEmbed} from '@imdbsd/tiktok-embed';
 
-const App = () => {    
+const App = () => {
     ...
 
     return (
@@ -45,18 +47,18 @@ const App = () => {
 
 - TiktokEmbed
 
-| props 	| type   	| required/optional 	| description        	|
-|-------	|--------	|-------------------	|--------------------	|
-| url   	| string 	| required          	| Tiktok content url 	|
+| props | type   | required/optional | description        |
+| ----- | ------ | ----------------- | ------------------ |
+| url   | string | required          | Tiktok content url |
 
-- useTiktokOembed    
+- useTiktokOembed
 
-| props 	| type   	| required/optional 	| description        	|
-|-------	|--------	|-------------------	|--------------------	|
-| url   	| string 	| required          	| Tiktok content url 	|
+| props | type   | required/optional | description        |
+| ----- | ------ | ----------------- | ------------------ |
+| url   | string | required          | Tiktok content url |
 
-| return 	| type   	                    |  description        	|
-|-------    | ----------------------------- | ---------------------	|
-| loading   | boolean  	                    | Tiktok content url 	|
-| data      | TiktokOembedResponse / null  	| Tiktok oembed return type 	|
-| error     | unknown  	                    | Error Response 	|
+| return  | type                        | description               |
+| ------- | --------------------------- | ------------------------- |
+| loading | boolean                     | Tiktok content url        |
+| data    | TiktokOembedResponse / null | Tiktok oembed return type |
+| error   | unknown                     | Error Response            |
