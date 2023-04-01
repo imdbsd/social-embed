@@ -1,4 +1,5 @@
 import * as React from 'react';
+import useTiktokEmbedscript from './hooks/useTiktokEmbedScript';
 import useTiktokOembed from './useTiktokOembed';
 import ErrorPlaceholder from './ErrorPlaceholder';
 
@@ -8,6 +9,9 @@ export type Props = {
 
 const TiktokEmbed: React.FC<Props> = (props) => {
   const {loading, data, error} = useTiktokOembed({url: props.url});
+  useTiktokEmbedscript({
+    when: Boolean(!loading && data),
+  });
 
   if (loading) {
     return null;
