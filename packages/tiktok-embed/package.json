@@ -5,6 +5,13 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "imdbsd",
+  "homepage": "https://github.com/imdbsd/social-embed",
+  "keywords": [
+    "react",
+    "tiktok",
+    "oembed",
+    "embed"
+  ],
   "private": false,
   "scripts": {
     "build": "tsc -p .",

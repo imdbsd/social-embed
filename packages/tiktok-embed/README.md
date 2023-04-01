@@ -17,7 +17,7 @@ $ npm install @imdbsd/tiktok-embed
 
 Using `TiktokEmbed` component
 
-```
+```typescript
 // App.tsx
 
 import {TiktokEmbed} from '@imdbsd/tiktok-embed';
@@ -35,8 +35,8 @@ const App = () => {
 
 Using `useTiktokOmbed` hooks
 
-```
-import {} from ''
+```typescript
+import {useTiktokOembed} from '@imdbsd/tiktok-embed'
 
 const App = () => {
     const url = "https://www.tiktok.com/@catslums/video/7201281217864535302"
@@ -55,9 +55,13 @@ const App = () => {
 
 - useTiktokOembed
 
+Props 
+
 | props | type   | required/optional | description        |
 | ----- | ------ | ----------------- | ------------------ |
 | url   | string | required          | Tiktok content url |
+
+Return
 
 | return  | type                        | description               |
 | ------- | --------------------------- | ------------------------- |
