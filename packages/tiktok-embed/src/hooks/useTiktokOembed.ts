@@ -19,7 +19,6 @@ const useTiktokOembed = (args: Args): Response => {
   const [error, setError] = React.useState(null);
 
   React.useEffect(() => {
-    //
     if (typeof window !== 'undefined') {
       setLoading(true);
       getTiktokOembed(urlArg)

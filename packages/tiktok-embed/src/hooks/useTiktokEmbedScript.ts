@@ -21,17 +21,14 @@ const injectEmbedScript = (args: {
     }
 
     titkokScript.onload = () => {
-      console.log('loaded');
       args.onLoad();
     };
 
     titkokScript.onloadstart = () => {
-      console.log('load start');
       args.onLoadStart();
     };
 
     titkokScript.onerror = () => {
-      console.log('load error');
       args.onError();
     };
 
