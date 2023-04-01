@@ -7,7 +7,9 @@ Created based on tiktok [oembed](https://developers.tiktok.com/doc/embed-videos/
 
 ```
 $ yarn add @imdbsd/tiktok-embed
+
 or
+
 $ npm install @imdbsd/tiktok-embed
 ```
 
