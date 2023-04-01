@@ -6,6 +6,13 @@
   "author": "imdbsd",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "build:all": "./node_modules/.bin/lerna run build",
+    "build:public-only": "./node_modules/.bin/lerna run build --no-private",
+    "bump-version": "./node_modules/.bin/lerna version --no-private",    
+    "release:canary": "yarn build:public-only && yarn bump-version && ./node_modules/.bin/lerna publish -c",
+    "release:stable": "yarn build:public-only && yarn bump-version && ./node_modules/.bin/lerna publish"
+  },
   "workspaces": [
     "packages/*"
   ],
